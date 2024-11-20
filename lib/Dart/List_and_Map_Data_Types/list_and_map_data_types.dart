@@ -16,12 +16,12 @@ void main() {
   var result = fruits.where((element) => element == "apple" || element == "banana").toList();
   // print(result);
   // print(val);
-  // print(fruits);
+  print(fruits);
 
-  print(myData["age"]);
-  print(myData.keys.toList());
-  print(myData.values);
-  print(myData.containsValue("apple"));
- var bal = myData.containsKey("name");
- print(bal);
+ //  print(myData["age"]);
+ //  print(myData.keys.toList());
+ //  print(myData.values);
+ //  print(myData.containsValue("apple"));
+ // var bal = myData.containsKey("name");
+ // print(bal);
 }
